@@ -4,7 +4,7 @@ import Image from "next/image";
 export function Hero() {
   return (
     <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-white">
-      <div className="absolute inset-0 bg-black/60 z-10" />
+      <div className="absolute inset-0 bg-black/40 z-10" />
       <Image
         src="/images/banner.png"
         alt="Pessoa treinando"
