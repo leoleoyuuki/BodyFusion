@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from 'lucide-react';
 import { BodyFusionLogo } from "@/components/BodyFusionLogo";
 
@@ -37,6 +37,9 @@ export function Header() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right">
+            <SheetHeader>
+              <SheetTitle className="sr-only">Menu de Navegação</SheetTitle>
+            </SheetHeader>
             <nav className="grid gap-6 text-lg font-medium mt-10">
               <BodyFusionLogo />
               {navLinks.map((link) => (

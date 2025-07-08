@@ -12,19 +12,19 @@ const testimonials = [
   {
     name: "Carlos Silva",
     quote: "Os suplementos da BodyFusion transformaram completamente meus treinos. Nunca me senti tão forte!",
-    image: "https://placehold.co/100x100.png",
+    image: "/images/1.jpg",
     aiHint: "happy customer"
   },
   {
     name: "Juliana Pereira",
     quote: "Produtos incríveis e um atendimento ao cliente ainda melhor. Eles me ajudaram a escolher exatamente o que eu precisava para alcançar meus objetivos.",
-    image: "https://placehold.co/100x100.png",
+    image: "/images/2.jpg",
     aiHint: "fitness success"
   },
   {
     name: "Ricardo Alves",
     quote: "No início eu estava cético, mas os resultados falam por si. Os melhores suplementos, sem dúvida.",
-    image: "https://placehold.co/100x100.png",
+    image: "/images/3.jpg",
     aiHint: "strong man"
   },
 ];
@@ -60,7 +60,7 @@ export function Testimonials() {
                         data-ai-hint={testimonial.aiHint}
                         width={80}
                         height={80}
-                        className="rounded-full mb-4"
+                        className="rounded-full w-20 h-20 mb-4"
                       />
                       <p className="text-lg font-semibold font-headline">{testimonial.name}</p>
                       <blockquote className="mt-2 text-muted-foreground italic">
