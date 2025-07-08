@@ -1,12 +1,12 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useFormStatus } from 'react-dom';
 import { askAI } from '@/app/actions';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { useEffect, useRef, useState } from 'react';
+import { useActionState, useEffect, useRef, useState } from 'react';
 import { MessageSquare, Loader2 } from 'lucide-react';
 
 const initialState = {
@@ -26,7 +26,7 @@ function SubmitButton() {
 }
 
 export function Faq() {
-  const [state, formAction] = useFormState(askAI, initialState);
+  const [state, formAction] = useActionState(askAI, initialState);
   const [accordionValue, setAccordionValue] = useState<string | undefined>();
   const formRef = useRef<HTMLFormElement>(null);
 
