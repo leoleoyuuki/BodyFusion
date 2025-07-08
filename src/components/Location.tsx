@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Navigation } from "lucide-react";
 
 export function Location() {
-  const address = "Parque São Domingos, São Paulo, Brazil";
+  const address = "Parque São Domingos, Brazil";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
@@ -38,7 +38,7 @@ export function Location() {
               <MapPin className="h-6 w-6 text-primary mt-1" />
               <p className="text-lg text-muted-foreground">
                 Main Street, 123 <br />
-                Parque São Domingos, São Paulo - SP <br />
+                Parque São Domingos <br />
                 Brazil
               </p>
             </div>

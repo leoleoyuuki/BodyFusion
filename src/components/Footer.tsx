@@ -25,7 +25,7 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <BodyFusionLogo />
             <p className="text-sm text-muted-foreground">
-              Sua fonte #1 de suplementos fitness em São Paulo.
+              Sua fonte #1 de suplementos fitness.
             </p>
           </div>
           <div>

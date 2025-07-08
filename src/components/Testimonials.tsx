@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     name: "Ricardo Alves",
-    quote: "No início eu estava cético, mas os resultados falam por si. Os melhores suplementos de São Paulo, sem dúvida.",
+    quote: "No início eu estava cético, mas os resultados falam por si. Os melhores suplementos, sem dúvida.",
     image: "https://placehold.co/100x100.png",
     aiHint: "strong man"
   },

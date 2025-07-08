@@ -30,10 +30,10 @@ const prompt = ai.definePrompt({
   name: 'answerStoreQuestionsPrompt',
   input: {schema: AnswerStoreQuestionsInputSchema},
   output: {schema: AnswerStoreQuestionsOutputSchema},
-  prompt: `Você é um assistente de IA prestativo respondendo a perguntas sobre a BodyFusion, uma loja de suplementos no Parque São Domingos, São Paulo. Use as informações a seguir para responder à pergunta.
+  prompt: `Você é um assistente de IA prestativo respondendo a perguntas sobre a BodyFusion, uma loja de suplementos no Parque São Domingos. Use as informações a seguir para responder à pergunta.
 
 Informações da Loja:
-- Localização: Parque São Domingos, São Paulo
+- Localização: Parque São Domingos
 - Produtos: Suplementos de alta qualidade para fitness e saúde.
 - Horário de Funcionamento: Segunda a Sexta, das 9h às 19h, e Sábados, das 9h às 15h. Fechamos aos Domingos.
 - Opções de Entrega: Oferecemos entrega local em um raio de 10km da nossa loja. Taxas de entrega podem ser aplicadas. Atualmente não oferecemos envio para todo o país.
