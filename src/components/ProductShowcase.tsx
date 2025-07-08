@@ -5,25 +5,25 @@ const products = [
   {
     name: "Whey Protein",
     description: "Blend premium para crescimento e recuperação muscular.",
-    image: "https://placehold.co/400x400.png",
+    image: "/images/wheyBold.jpg",
     aiHint: "supplement bottle"
   },
   {
     name: "Creatina monohidratada",
     description: "Creatina pura para aumento de força e potência.",
-    image: "https://placehold.co/400x400.png",
+    image: "/images/creatinaShark.jpg",
     aiHint: "supplement powder"
   },
   {
     name: "Pré Treino",
     description: "Energia explosiva e foco para seus treinos.",
-    image: "https://placehold.co/400x400.png",
+    image: "/images/v9Pump.jpg",
     aiHint: "energy drink"
   },
   {
     name: "Pasta de Amendoim",
     description: "Fonte de energia natural e proteína para sua dieta.",
-    image: "https://placehold.co/400x400.png",
+    image: "/images/pastaDrPeanut.jpg",
     aiHint: "peanut butter"
   },
 ];
