@@ -3,12 +3,12 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { href: "#products", label: "Products" },
-  { href: "#promotions", label: "Promotions" },
-  { href: "#testimonials", label: "Testimonials" },
-  { href: "#location", label: "Location" },
-  { href: "#contact", label: "Contact" },
-  { href: "#faq", label: "FAQ" },
+  { href: "#products", label: "Produtos" },
+  { href: "#promotions", label: "Promoções" },
+  { href: "#testimonials", label: "Depoimentos" },
+  { href: "#location", label: "Localização" },
+  { href: "#contact", label: "Contato" },
+  { href: "#faq", label: "Dúvidas" },
 ];
 
 const socialLinks = [
@@ -25,11 +25,11 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <BodyFusionLogo />
             <p className="text-sm text-muted-foreground">
-              Your #1 source for fitness supplements in São Paulo.
+              Sua fonte #1 de suplementos fitness em São Paulo.
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4 font-headline">Quick Links</h4>
+            <h4 className="font-semibold mb-4 font-headline">Links Rápidos</h4>
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.label}>
@@ -45,18 +45,18 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Privacy Policy
+                  Política de Privacidade
                 </a>
               </li>
               <li>
                 <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Terms of Service
+                  Termos de Serviço
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4 font-headline">Follow Us</h4>
+            <h4 className="font-semibold mb-4 font-headline">Siga-nos</h4>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <Button key={social.label} variant="ghost" size="icon" asChild>
@@ -69,7 +69,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} BodyFusion SP. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} BodyFusion. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

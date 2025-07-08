@@ -5,7 +5,7 @@ import { answerStoreQuestions } from '@/ai/flows/answer-store-questions';
 import { z } from 'zod';
 
 const schema = z.object({
-  question: z.string().min(1, { message: 'Question cannot be empty' }),
+  question: z.string().min(1, { message: 'A pergunta não pode estar vazia' }),
 });
 
 interface IState {
@@ -32,7 +32,7 @@ export async function askAI(prevState: IState, formData: FormData): Promise<ISta
     return { answer: result.answer, question };
   } catch (e) {
     return { 
-      error: 'Sorry, something went wrong. Please try again later.',
+      error: 'Desculpe, algo deu errado. Por favor, tente novamente mais tarde.',
       question
     };
   }

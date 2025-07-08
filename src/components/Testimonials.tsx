@@ -11,19 +11,19 @@ import {
 const testimonials = [
   {
     name: "Carlos Silva",
-    quote: "The supplements from BodyFusion SP completely transformed my workouts. I've never felt stronger!",
+    quote: "Os suplementos da BodyFusion transformaram completamente meus treinos. Nunca me senti tão forte!",
     image: "https://placehold.co/100x100.png",
     aiHint: "happy customer"
   },
   {
     name: "Juliana Pereira",
-    quote: "Amazing products and even better customer service. They helped me pick exactly what I needed to reach my goals.",
+    quote: "Produtos incríveis e um atendimento ao cliente ainda melhor. Eles me ajudaram a escolher exatamente o que eu precisava para alcançar meus objetivos.",
     image: "https://placehold.co/100x100.png",
     aiHint: "fitness success"
   },
   {
     name: "Ricardo Alves",
-    quote: "I was skeptical at first, but the results speak for themselves. The best supplements in São Paulo, hands down.",
+    quote: "No início eu estava cético, mas os resultados falam por si. Os melhores suplementos de São Paulo, sem dúvida.",
     image: "https://placehold.co/100x100.png",
     aiHint: "strong man"
   },
@@ -35,10 +35,10 @@ export function Testimonials() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-            Success Stories from Our Community
+            Histórias de Sucesso da Nossa Comunidade
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mt-4">
-            Real people, real results. See how we've helped others on their fitness journey.
+            Pessoas reais, resultados reais. Veja como ajudamos outras pessoas em sua jornada fitness.
           </p>
         </div>
         <Carousel

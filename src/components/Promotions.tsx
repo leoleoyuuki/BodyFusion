@@ -8,16 +8,16 @@ export function Promotions() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-center md:text-left">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-              This Week's Special Offer!
+              Oferta Especial da Semana!
             </h2>
             <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90">
-              Get 20% off on all pre-workout supplements. Power up your training sessions and save big. Limited time only!
+              Ganhe 20% de desconto em todos os suplementos pré-treino. Potencialize seus treinos e economize. Oferta por tempo limitado!
             </p>
           </div>
           <div className="text-center">
             <Button size="lg" variant="outline" className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-bold text-lg px-8 py-6">
               <Gift className="mr-2 h-5 w-5" />
-              Claim Offer
+              Aproveitar Oferta
             </Button>
           </div>
         </div>

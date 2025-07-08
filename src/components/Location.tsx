@@ -11,10 +11,10 @@ export function Location() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-            Visit Our Store
+            Visite Nossa Loja
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mt-4">
-            Find us in the heart of Parque São Domingos. We're ready to help you in person.
+            Encontre-nos no coração do Parque São Domingos. Estamos prontos para te ajudar pessoalmente.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -33,7 +33,7 @@ export function Location() {
             </div>
           </Card>
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold font-headline">BodyFusion SP</h3>
+            <h3 className="text-2xl font-bold font-headline">BodyFusion</h3>
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 text-primary mt-1" />
               <p className="text-lg text-muted-foreground">
@@ -45,7 +45,7 @@ export function Location() {
             <Button asChild size="lg">
               <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">
                 <Navigation className="mr-2 h-5 w-5" />
-                Get Directions
+                Obter Direções
               </a>
             </Button>
           </div>

@@ -3,16 +3,16 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Dumbbell } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { BodyFusionLogo } from "@/components/BodyFusionLogo";
 
 const navLinks = [
-  { href: "#products", label: "Products" },
-  { href: "#promotions", label: "Promotions" },
-  { href: "#testimonials", label: "Testimonials" },
-  { href: "#location", label: "Location" },
-  { href: "#contact", label: "Contact" },
-  { href: "#faq", label: "FAQ" },
+  { href: "#products", label: "Produtos" },
+  { href: "#promotions", label: "Promoções" },
+  { href: "#testimonials", label: "Depoimentos" },
+  { href: "#location", label: "Localização" },
+  { href: "#contact", label: "Contato" },
+  { href: "#faq", label: "Dúvidas" },
 ];
 
 export function Header() {
@@ -33,7 +33,7 @@ export function Header() {
           <SheetTrigger asChild>
             <Button variant="outline" size="icon" className="md:hidden">
               <Menu className="h-6 w-6" />
-              <span className="sr-only">Open navigation menu</span>
+              <span className="sr-only">Abrir menu de navegação</span>
             </Button>
           </SheetTrigger>
           <SheetContent side="right">

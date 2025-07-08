@@ -20,7 +20,7 @@ function SubmitButton() {
   return (
     <Button type="submit" disabled={pending}>
       {pending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <MessageSquare className="mr-2 h-4 w-4" />}
-      Ask AI
+      Perguntar à IA
     </Button>
   );
 }
@@ -42,22 +42,22 @@ export function Faq() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-            Frequently Asked Questions
+            Perguntas Frequentes
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mt-4">
-            Have a question? Ask our AI assistant for a quick answer about our store and products.
+            Tem alguma dúvida? Pergunte ao nosso assistente de IA para uma resposta rápida sobre nossa loja e produtos.
           </p>
         </div>
         <Card className="max-w-2xl mx-auto">
           <CardHeader>
-            <CardTitle>Ask a Question</CardTitle>
-            <CardDescription>Get instant answers to your questions.</CardDescription>
+            <CardTitle>Faça uma Pergunta</CardTitle>
+            <CardDescription>Obtenha respostas instantâneas para suas perguntas.</CardDescription>
           </CardHeader>
           <form ref={formRef} action={formAction}>
             <CardContent>
               <Input
                 name="question"
-                placeholder="e.g., What are your store hours?"
+                placeholder="ex: Qual o horário de funcionamento?"
                 required
               />
               {state.error && <p className="text-sm text-destructive mt-2">{state.error}</p>}

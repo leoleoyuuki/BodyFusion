@@ -4,25 +4,25 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 const products = [
   {
     name: "Whey Protein Fusion",
-    description: "Premium blend for muscle growth and recovery.",
+    description: "Blend premium para crescimento e recuperação muscular.",
     image: "https://placehold.co/400x400.png",
     aiHint: "supplement bottle"
   },
   {
-    name: "Creatine Monohydrate",
-    description: "Pure creatine for increased strength and power.",
+    name: "Creatina Monohidratada",
+    description: "Creatina pura para aumento de força e potência.",
     image: "https://placehold.co/400x400.png",
     aiHint: "supplement powder"
   },
   {
-    name: "Pre-Workout Ignite",
-    description: "Explosive energy and focus for your workouts.",
+    name: "Pré-Treino Ignite",
+    description: "Energia explosiva e foco para seus treinos.",
     image: "https://placehold.co/400x400.png",
     aiHint: "energy drink"
   },
   {
     name: "BCAA Amino-Boost",
-    description: "Supports muscle repair and reduces fatigue.",
+    description: "Auxilia na reparação muscular e reduz a fadiga.",
     image: "https://placehold.co/400x400.png",
     aiHint: "supplement pills"
   },
@@ -34,10 +34,10 @@ export function ProductShowcase() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline">
-            Our Featured Products
+            Nossos Produtos em Destaque
           </h2>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mt-4">
-            A curated selection of top-tier supplements to help you achieve your goals.
+            Uma seleção criteriosa de suplementos de primeira linha para ajudá-lo a alcançar seus objetivos.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -1,13 +1,17 @@
 import { cn } from "@/lib/utils";
-import { Dumbbell } from 'lucide-react';
+import Image from "next/image";
 
 export function BodyFusionLogo({ className }: { className?: string }) {
   return (
-    <a href="#" className={cn("flex items-center gap-2 text-2xl font-bold tracking-tight font-headline", className)}>
-      <Dumbbell className="h-7 w-7 text-primary" />
-      <span className="text-primary">
-        BodyFusion <span className="text-foreground">SP</span>
-      </span>
+    <a href="#" className={cn("flex items-center", className)}>
+      <Image
+        src="/images/logo.jpg"
+        alt="Logo da BodyFusion"
+        width={185}
+        height={61}
+        className="object-contain h-10 w-auto"
+        priority
+      />
     </a>
   );
 }
