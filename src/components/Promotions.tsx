@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Gift } from "lucide-react";
 
 export function Promotions() {
+  const ifoodUrl = "https://www.ifood.com.br/delivery/sao-paulo-sp/body-fusion---parque-sao-domingos-city-america/a8b3bc5c-c751-410b-b671-91e8a9449302?utm_medium=share&fbclid=PAZXh0bgNhZW0CMTEAAaeGZR1MxZNFWLTdCb48TSHzlLs2QEY5EsCezwGIVxNCSzI558xVB302-2ekVg_aem_1yy17sr0xVXeJEAq0oKHTw";
+
   return (
     <section id="promotions" className="py-12 md:py-20 lg:py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 md:px-6">
@@ -15,9 +17,11 @@ export function Promotions() {
             </p>
           </div>
           <div className="text-center">
-            <Button size="lg" variant="outline" className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-bold text-lg px-8 py-6">
-              <Gift className="mr-2 h-5 w-5" />
-              Aproveitar Oferta
+            <Button asChild size="lg" variant="outline" className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-bold text-lg px-8 py-6">
+              <a href={ifoodUrl} target="_blank" rel="noopener noreferrer">
+                <Gift className="mr-2 h-5 w-5" />
+                Aproveitar Oferta
+              </a>
             </Button>
           </div>
         </div>
