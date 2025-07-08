@@ -3,28 +3,28 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 
 const products = [
   {
-    name: "Whey Protein Fusion",
+    name: "Whey Protein",
     description: "Blend premium para crescimento e recuperação muscular.",
     image: "https://placehold.co/400x400.png",
     aiHint: "supplement bottle"
   },
   {
-    name: "Creatina Monohidratada",
+    name: "Creatina monohidratada",
     description: "Creatina pura para aumento de força e potência.",
     image: "https://placehold.co/400x400.png",
     aiHint: "supplement powder"
   },
   {
-    name: "Pré-Treino Ignite",
+    name: "Pré Treino",
     description: "Energia explosiva e foco para seus treinos.",
     image: "https://placehold.co/400x400.png",
     aiHint: "energy drink"
   },
   {
-    name: "BCAA Amino-Boost",
-    description: "Auxilia na reparação muscular e reduz a fadiga.",
+    name: "Pasta de Amendoim",
+    description: "Fonte de energia natural e proteína para sua dieta.",
     image: "https://placehold.co/400x400.png",
-    aiHint: "supplement pills"
+    aiHint: "peanut butter"
   },
 ];
 
