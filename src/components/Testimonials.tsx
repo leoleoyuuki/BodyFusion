@@ -18,7 +18,7 @@ const testimonials = [
   {
     name: "Juliana Pereira",
     quote: "Produtos incríveis e um atendimento ao cliente ainda melhor. Eles me ajudaram a escolher exatamente o que eu precisava para alcançar meus objetivos.",
-    image: "/images/2.jpg",
+    image: "/images/2-1.jpg",
     aiHint: "fitness success"
   },
   {
