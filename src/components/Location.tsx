@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { MapPin, Navigation } from "lucide-react";
 
 export function Location() {
-  const address = "Parque São Domingos, Brazil";
+  const address = "Av. do Anastácio, 955 - Parque Sao Domingos, São Paulo - SP, 05119-000";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
@@ -21,14 +21,14 @@ export function Location() {
           <Card className="overflow-hidden">
             <div className="aspect-video w-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58534.5828731306!2d-46.78918115136718!3d-23.513470700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8e1e7616559%3A0x1d580f4f535818e6!2sParque%20S%C3%A3o%20Domingos%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1sen!2sbr!4v1688581824345!5m2!1sen!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8999174062405!2d-46.734323499999995!3d-23.500114099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef91a7fb9df49%3A0xd71897491468631b!2sBody%20Fusion%20Suplementos%20-%20Parque%20S%C3%A3o%20Domingos!5e0!3m2!1spt-BR!2sbr!4v1752075975777!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Google Map of BodyFusion SP location"
+                title="Mapa da localização da BodyFusion Suplementos"
               ></iframe>
             </div>
           </Card>
@@ -37,9 +37,9 @@ export function Location() {
             <div className="flex items-start gap-4">
               <MapPin className="h-6 w-6 text-primary mt-1" />
               <p className="text-lg text-muted-foreground">
-                Main Street, 123 <br />
-                Parque São Domingos <br />
-                Brazil
+                Av. do Anastácio, 955 <br />
+                Parque Sao Domingos, São Paulo - SP <br />
+                05119-000
               </p>
             </div>
             <Button asChild size="lg">
